@@ -15,7 +15,7 @@ export default {
 
 <style lang="scss">
 #app {
-  font-family: "Comic Sans MS", "Comic Sans";
+  font-family: 'Comic Sans MS', 'Comic Sans', 'Chalkboard SE', 'Comic Neue', sans-serif;;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
