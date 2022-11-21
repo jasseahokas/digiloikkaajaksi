@@ -10,7 +10,7 @@
 					@toggle="toggleTheme"
 					:color="theme"
 					title="Osaan koodaa"
-					text="Tämänkin sivun hutasin muutamassa tunnissa. Osaan käytetäviä (eng. usability) ja ei niin käytettäviä CSS tekniikoita joilla voimme räätälöidä kunkin lukijan lukukokemuksen juuri sopivan epämiellyttäväksi. On tullu tehtyy jne. voitte esim käydä tsekkaa nacun refei"
+					text="Osaan käytetäviä (eng. usability) ja ei niin käytettäviä CSS tekniikoita joilla voimme räätälöidä kunkin lukijan lukukokemuksen juuri sopivan epämiellyttäväksi. On tullu tehtyy jne. voitte esim käydä tsekkaa nacun refei"
 				/>
 				<Reason
 					@toggle="toggleTheme"
