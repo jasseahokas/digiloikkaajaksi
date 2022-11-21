@@ -112,6 +112,9 @@
 				transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 				pointer-events: none;
 				margin: 0;
+				@media screen and (max-width: 600px) {
+					font-size: 20px;
+				}
 			}
 			p {
 				color: #f5f5f5;

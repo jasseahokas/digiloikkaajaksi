@@ -1,6 +1,8 @@
 <template>
 	<div class="maincontainer" :class="theme">
-		<h1 id="header">Jasse <span class="rainbow">kukan</span> Digiloikkaajaksi 2023</h1>
+		<h1 id="header">
+			Jasse <span class="rainbow">kukan</span> Digiloikkaajaksi 2023
+		</h1>
 		<div class="reasons">
 			<h2>Kolme (3) syytä miksi</h2>
 			<div class="reasonsContainer">
@@ -53,6 +55,7 @@
 	.maincontainer {
 		height: 100vh;
 		width: 100vw;
+		min-height: 700px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -63,13 +66,17 @@
 			mix-blend-mode: difference;
 			margin: 10px;
 		}
-        #header{
-            width: calc(100vw - 120px);
-        }
+		#header {
+			width: calc(100vw - 120px);
+			@media screen and (max-width: 700px) {
+				margin-top: 25px;
+				font-size: 24px;
+			}
+		}
 		.reasons {
 			@media screen and (max-width: 700px) {
 				h2 {
-					font-size: 24px;
+					font-size: 20px;
 					margin: 8px;
 				}
 			}
@@ -103,8 +110,8 @@
 		top: 50%;
 		transform: translate(-50%, -50%);
 		//border
-		width: calc(100vw - 50px);
-		height: calc(100vh - 50px);
+		width: calc(100% - 50px);
+		height: calc(100% - 50px);
 		border: 8px solid #323232;
 		animation: rainbow-border 1s linear;
 		animation-iteration-count: infinite;
