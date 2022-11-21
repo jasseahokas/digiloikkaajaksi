@@ -61,6 +61,7 @@
 		h2 {
 			color: white;
 			mix-blend-mode: difference;
+			margin: 10px;
 		}
         #header{
             width: calc(100vw - 120px);
