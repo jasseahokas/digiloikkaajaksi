@@ -1,7 +1,7 @@
 <template>
 	<div class="maincontainer" :class="theme">
 		<h1 id="header">
-			Jasse <span class="rainbow">kukan</span> Digiloikkaajaksi 2023
+			Jasse <span class="rainbow">Kukan</span> Digiloikkaajaksi 2023
 		</h1>
 		<div class="reasons">
 			<h2>Kolme (3) syytä miksi</h2>
